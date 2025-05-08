@@ -44,3 +44,42 @@ html {
     font-weight: bold;
     color: #000000;
 }
+
+.tag-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag-item-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-bar {
+    width: 43rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 32px;
+}
+
+.search-input {
+    width: 40rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 32px;
+}
+
+.search-btn {
+    border: none;
+    background-color: #fff;
+    font-size: 1.4rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 32px;
+}
